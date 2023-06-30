@@ -4,7 +4,9 @@ import './Header.scss';
 export const Header: React.FC = () => {
   return (
     <header className="Header">
-      header
+      <h4>
+        header
+      </h4>
       <Nav />
     </header>
   );
