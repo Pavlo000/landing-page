@@ -17,6 +17,12 @@
     border-radius: 30px;
     transition: all 0.3s;
 
+    font-size: 14px;
+    font-family: Rubik;
+    font-weight: 500;
+    text-transform: uppercase;
+
+
     &:hover {
       border-color: rgba(255, 255, 255, 0.30);
       background: rgba(3, 3, 4, 0.50);

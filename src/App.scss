@@ -6,4 +6,8 @@
   grid-template-rows: 1fr auto;
 
   background-color: $strong-dark-color;
+
+  &__footer {
+    background-color: $grey-scales-eight;
+  }
 }

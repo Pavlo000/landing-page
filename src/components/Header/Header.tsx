@@ -7,15 +7,15 @@ export const Header: React.FC = () => {
   return (
     <header className="Header container-xxl">
       <div className="Header__nav">
-        <div className="Header__logo">
+        <a href="/" className="Header__logo icon">
           <IconLogo />
-        </div>
+        </a>
         <Nav />
       </div>
 
       <div className="Header__block">
         <h1 className="Header__title">
-          Adaptive Logo Design for Your Brand
+          Portfolio, and how to make exiting things
         </h1>
 
         <a href="/" className="Header__button button">

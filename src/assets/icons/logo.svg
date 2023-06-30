@@ -1,4 +1,4 @@
-<svg width="125" height="28" viewBox="0 0 125 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="125" height="28" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block;">
 <circle cx="71" cy="14" r="9" stroke="white" stroke-opacity="0.15" stroke-width="10"/>
 <circle opacity="0.6" cx="71" cy="14" r="8" stroke="white" stroke-width="2"/>
 <path d="M2.91009 25H0L8.41688 3H11.2822L19.6991 25H16.789L9.93908 6.48047H9.76L2.91009 25ZM3.98459 16.4063H15.7145V18.7695H3.98459V16.4063Z" fill="white"/>
