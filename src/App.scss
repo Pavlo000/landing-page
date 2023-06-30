@@ -1,0 +1,9 @@
+@import './assets/styles/main.scss';
+
+.App {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+
+  background-color: $strong-dark-color;
+}

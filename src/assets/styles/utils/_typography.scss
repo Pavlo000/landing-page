@@ -1,5 +1,4 @@
 h1 {
-  color: $secondary-color;
   font-size: 72px;
   font-family: Syne;
   font-style: normal;
@@ -9,7 +8,6 @@ h1 {
 }
 
 h2 {
-  color: $secondary-color;
   font-size: 64px;
   font-family: Syne;
   font-style: normal;
@@ -19,7 +17,6 @@ h2 {
 }
 
 h3 {
-  color: $secondary-color;
   font-size: 56px;
   font-family: Syne;
   font-style: normal;
@@ -29,7 +26,6 @@ h3 {
 }
 
 h4 {
-  color: $secondary-color;
   font-size: 24px;
   font-family: Outfit;
   font-style: normal;
@@ -39,7 +35,6 @@ h4 {
 }
 
 .body-large {
-  color: $secondary-color;
   font-size: 20px;
   font-family: Outfit;
   font-style: normal;
@@ -49,7 +44,6 @@ h4 {
 }
 
 .body-medium {
-  color: $secondary-color;
   font-size: 16px;
   font-family: Outfit;
   font-style: normal;
@@ -58,10 +52,18 @@ h4 {
 }
 
 .button {
-  color: $secondary-color;
   font-size: 16px;
   font-family: Outfit;
   font-style: normal;
   font-weight: 500;
   line-height: 160%;
+}
+
+.link {
+  font-size: 14px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
 }
