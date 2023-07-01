@@ -5,7 +5,7 @@ import { SocialList } from '../SocialList';
 
 export const Footer: React.FC = () => {
   return (
-    <footer className='Footer'>
+    <footer className='Footer' id="contacts">
       <div className="container">
         <div className="Footer__section">
           <h4 className="Footer__title">

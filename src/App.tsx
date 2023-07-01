@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import './App.scss';
 import { Menu } from "./components/Menu";
 import { About } from "./components/About";
+import { Projects } from "./components/Projects";
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
         <Menu />
         <main className="App__main container-xl">
           <About />
+          <Projects />
         </main>
       </div>
       <div className="App__footer">

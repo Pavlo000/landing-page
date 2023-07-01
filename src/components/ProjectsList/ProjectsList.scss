@@ -1,0 +1,19 @@
+@import '../../assets/styles/main.scss';
+
+.ProjectsList {
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 50px;
+    margin-top: 50px;
+
+    @include onTablet() {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include onNotebook() {
+      margin-top: 70px;
+    }
+  }
+}

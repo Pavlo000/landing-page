@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "./projects/project_1.jpg",
+    "title": "Brand Jorney Improvements",
+    "description": "exiting project",
+    "technologies": ["HTML", "CSS", "TypeScript"]
+  },
+  {
+    "id": 2,
+    "image": "./projects/project_2.jpg",
+    "title": "Brand Grouping",
+    "description": "exiting project",
+    "technologies": ["HTML", "CSS", "TypeScript"]
+  },
+  {
+    "id": 3,
+    "image": "./projects/project_3.jpg",
+    "title": "NFT Glimps",
+    "description": "exiting project",
+    "technologies": ["HTML", "CSS", "TypeScript"]
+  },
+  {
+    "id": 4,
+    "image": "./projects/project_4.jpg",
+    "title": "Brand Suggestions",
+    "description": "exiting project",
+    "technologies": ["HTML", "CSS", "TypeScript"]
+  }
+]
