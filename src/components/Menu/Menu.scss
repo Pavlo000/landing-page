@@ -1,0 +1,50 @@
+@import '../../assets/styles/main.scss';
+
+.Menu {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+
+  background-color: $dark-color;
+
+  transform: translateX(100vw);
+  transition: transform 0.8s;
+
+  &:target {
+    box-sizing: border-box;
+
+    transform: translateX(0);
+    overflow: auto;
+  }
+
+  &__title {
+    text-align: center;
+    margin-top: 30px;
+
+    color: $white-color;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+    margin: 60px 0;
+  }
+
+  &__link {
+    font-size: 20px;
+  }
+
+  &__social {
+    padding-bottom: 40px;
+    width: min-content;
+    margin: 0 auto;
+  }
+}

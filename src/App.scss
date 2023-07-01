@@ -5,7 +5,9 @@
   display: grid;
   grid-template-rows: 1fr auto;
 
-  background-color: $strong-dark-color;
+  background-image: url('./assets/images/background.png');
+  background-repeat: repeat-y;
+  background-size: cover;
 
   &__footer {
     background-color: $grey-scales-eight;

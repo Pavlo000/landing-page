@@ -5,22 +5,22 @@ export const Nav: React.FC = () => {
     <nav className="Nav">
       <ul className="Nav__list">
         <li className="Nav__item">
-          <a href="/" className="Nav__link">
+          <a href="#top" className="Nav__link navigation__link tab">
             Home
           </a>
         </li>
         <li className="Nav__item">
-          <a href="/" className="Nav__link">
+          <a href="#about" className="Nav__link tab">
             About me
           </a>
         </li>
         <li className="Nav__item">
-          <a href="/" className="Nav__link">
+          <a href="#projects" className="Nav__link tab">
             My works
           </a>
         </li>
         <li className="Nav__item">
-          <a href="/" className="Nav__link">
+          <a href="#contacts" className="Nav__link tab">
             Contact
           </a>
         </li>

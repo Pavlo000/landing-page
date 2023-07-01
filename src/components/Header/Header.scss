@@ -3,23 +3,46 @@
 .Header {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 
-  &__nav {
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
+  @include onNotebook() {
+    height: unset;
+  }
 
+  &__top-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px 20px;
+    padding: 30px 20px;
 
-    background-color: $strong-dark-color;
+    @include onTablet() {
+      padding: 35px 20px;
+    }
+
+    @include onNotebook() {
+      padding: 45px 20px;
+    }
+
   }
 
   &__logo {
-    margin-left: 23px;
+    @include onNotebook() {
+      margin-left: 23px;
+    }
+  }
+
+  &__nav {
+    display: none;
+
+    @include onNotebook() {
+      display: block;
+    }
+  }
+
+  &__icon {
+    @include onNotebook() {
+      display: none;
+    }
   }
 
   &__title {

@@ -1,0 +1,17 @@
+@mixin onTablet() {
+  @media (min-width: 700px) {
+    @content;
+  }
+}
+
+@mixin onNotebook() {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin onLargeScreen() {
+  @media (min-width: 2000px) {
+    @content;
+  }
+}

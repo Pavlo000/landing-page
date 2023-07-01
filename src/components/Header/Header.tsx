@@ -1,16 +1,24 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Nav } from '../Nav';
-import { ReactComponent as IconLogo } from '../../assets/icons/logo.svg';
+
+import { ReactComponent as MenuIcon } from '../../assets/icons/menu.svg';
+import { ReactComponent as LogoIcon } from '../../assets/icons/logo.svg';
 
 import './Header.scss';
 
 export const Header: React.FC = () => {
   return (
-    <header className="Header container-xxl">
-      <div className="Header__nav">
-        <a href="/" className="Header__logo icon">
-          <IconLogo />
+    <header className="Header">
+      <div className="Header__top-content">
+        <a href="#" className="Header__logo icon">
+          <LogoIcon />
         </a>
-        <Nav />
+        <div className="Header__nav">
+          <Nav />
+        </div>
+        <a href="#menu" className="Header__icon">
+          <MenuIcon />
+        </a>
       </div>
 
       <div className="Header__block">

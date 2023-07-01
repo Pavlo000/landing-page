@@ -1,3 +1,10 @@
+body {
+  scroll-behavior: smooth;
+
+  &:has(.Menu:target) {
+    overflow: hidden;
+  }
+}
 a {
   color: #FFF;
 }

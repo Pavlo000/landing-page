@@ -1,0 +1,9 @@
+.SocialList {
+  display: flex;
+  gap: 40px;
+  width: min-content;
+
+  &__icon {
+    opacity: 0.6;
+  }
+}
