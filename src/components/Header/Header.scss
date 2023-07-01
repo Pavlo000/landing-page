@@ -3,11 +3,7 @@
 .Header {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-
-  @include onNotebook() {
-    height: unset;
-  }
+  min-height: 100vh;
 
   &__top-content {
     display: flex;

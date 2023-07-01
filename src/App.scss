@@ -9,6 +9,14 @@
   background-repeat: repeat-y;
   background-size: cover;
 
+  &__main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 50px 0;
+
+  }
+
   &__footer {
     background-color: $grey-scales-eight;
   }

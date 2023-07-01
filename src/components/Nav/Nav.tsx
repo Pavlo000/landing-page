@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './Nav.scss';
 
 export const Nav: React.FC = () => {
@@ -5,7 +6,7 @@ export const Nav: React.FC = () => {
     <nav className="Nav">
       <ul className="Nav__list">
         <li className="Nav__item">
-          <a href="#top" className="Nav__link navigation__link tab">
+          <a href="#" className="Nav__link navigation__link tab">
             Home
           </a>
         </li>

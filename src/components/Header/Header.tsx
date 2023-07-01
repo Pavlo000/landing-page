@@ -26,7 +26,7 @@ export const Header: React.FC = () => {
           Portfolio, and how to make exiting things
         </h1>
 
-        <a href="/" className="Header__button button">
+        <a href="#projects" className="Header__button button">
           Explore works
         </a>
       </div>
