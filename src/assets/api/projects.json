@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "link": "https://pavlo000.github.io/layout_dia/",
     "image": "./projects/project_1.jpg",
     "title": "Dia Landing Page",
     "description": "Landing page with pure HTML/CSS and little bit vanilla JS",
@@ -8,6 +9,7 @@
   },
   {
     "id": 2,
+    "link": "https://pavlo000.github.io/ferati-test-task/",
     "image": "./projects/project_2.jpg",
     "title": "Ferati Landing Page",
     "description": "Landing page with React",
@@ -15,6 +17,7 @@
   },
   {
     "id": 3,
+    "link": "https://pavlo000.github.io/layout-dia/",
     "image": "./projects/project_3.jpg",
     "title": "NFT Glimps",
     "description": "exiting project",
@@ -22,6 +25,7 @@
   },
   {
     "id": 4,
+    "link": "https://pavlo000.github.io/layout-dia/",
     "image": "./projects/project_4.jpg",
     "title": "Brand Suggestions",
     "description": "exiting project",

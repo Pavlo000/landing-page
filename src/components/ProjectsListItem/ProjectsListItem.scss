@@ -6,8 +6,10 @@
     object-fit: cover;
     width: 300px;
     height: 350px;
+    border: 2px solid transparent;
 
     border-radius: 35px;
+    transition: all 0.5s;
 
     @include onNotebook() {
       width: 400px;
@@ -15,10 +17,19 @@
     }
   }
 
+  &:hover {
+    .ProjectsListItem__image {
+      transition: all 0.5s;
+
+      transform: scale(1.05);
+      border: 2px solid $primary-color;
+    }
+  }
+
   &__title {
     position: relative;
 
-    margin-top: 20px;
+    padding-top: 20px;
 
     font-family: Syne;
     color: $white-color;
@@ -26,17 +37,20 @@
     @include onNotebook() {
       font-size: 20px;
     }
-    
 
     &::after {
       content: '';
       position: absolute;
-      top: 10px;
+      top: 30px;
 
       width: 40px;
       height: 1px;
       margin-left: 20px;
       background-color: $primary-color;
+    }
+
+    &:hover {
+      color: $primary-color;
     }
   }
 

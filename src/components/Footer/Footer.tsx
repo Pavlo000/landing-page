@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
 
           <a href="mailto:pavlmorz@gmail.com" className="Footer__mail link">
             <h2>
-              pavlmarz@gmail.com
+              pavlmorz@gmail.com
             </h2>
           </a>
         </div>
