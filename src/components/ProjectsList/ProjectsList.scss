@@ -4,16 +4,17 @@
   &__list {
     display: grid;
     grid-template-columns: 1fr;
-    column-gap: 20px;
-    row-gap: 50px;
+    gap: 20px;
     margin-top: 50px;
 
     @include onTablet() {
       grid-template-columns: 1fr 1fr;
+      column-gap: 50px;
     }
 
     @include onNotebook() {
       margin-top: 70px;
+      column-gap: 80px;
     }
   }
 }

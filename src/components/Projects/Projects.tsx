@@ -8,10 +8,6 @@ export const Projects: React.FC = () => {
         My Projects Highlight
       </h2>
 
-      <a href="/projects" className="Projects__button button button--reverse">
-        Explore more
-      </a>
-
       <ProjectsList />
     </section>
   );

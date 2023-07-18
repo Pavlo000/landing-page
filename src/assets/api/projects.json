@@ -17,18 +17,10 @@
   },
   {
     "id": 3,
-    "link": "https://pavlo000.github.io/layout-dia/",
+    "link": "https://pavlo000.github.io/app-chat-client/",
     "image": "./projects/project_3.jpg",
-    "title": "NFT Glimps",
-    "description": "exiting project",
-    "technologies": ["HTML", "CSS", "TypeScript"]
-  },
-  {
-    "id": 4,
-    "link": "https://pavlo000.github.io/layout-dia/",
-    "image": "./projects/project_4.jpg",
-    "title": "Brand Suggestions",
-    "description": "exiting project",
-    "technologies": ["HTML", "CSS", "TypeScript"]
+    "title": "App Chat",
+    "description": "Chat with authentication",
+    "technologies": ["HTML", "Bulma", "TypeScript", "React", "React Router", "Node.js", "Express", "Socket.io", "MongoDB",  "nodemailer"]
   }
 ]

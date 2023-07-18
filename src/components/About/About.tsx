@@ -1,3 +1,4 @@
+import cv from '../../assets/files/Pavlo-Moroz-CV.pdf';
 import image from '../../assets/images/about-photo.jpg';
 import './About.scss';
 
@@ -10,10 +11,10 @@ export const About: React.FC = () => {
             Let’s get know about me closer
           </h3>
           <p className="About__description body-medium">
-            Aaronn is a New York-based visual designer focusing on branding and visual identity. Her portfolio showcases her wide range of work, spanning books, posters and web design.
+            Welcome! I'm Pavlo Moroz, an enthusiastic and talented Software Developer dedicated to crafting outstanding user experiences. My passion lies in finding innovative solutions that precisely meet clients' and users' needs.
           </p>
 
-          <a href="/about" className="About__button button">
+          <a href={cv} className="About__button button" download>
             Discover More About Me
           </a>
         </div>
