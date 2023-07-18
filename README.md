@@ -1,4 +1,28 @@
-# Portfilio
+# Portfolio Landing Page
 
-- [Demo vesion](https://pavlo000.github.io/landing-page/)
-- [MockUp](https://www.figma.com/file/BlgYPGzQkcndyVOYQF2MiW/Free-Portfolio-Website-Landing-Page-(Community)?type=design&node-id=0-4&mode=design&t=8R5KBeNVlVw6YE6L-0)
+This repository contains the source code for my personal portfolio landing page.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- SCSS
+- TypeScript
+- React
+- Bootstrap
+
+## Features
+
+- Responsive design
+- Smooth scrolling
+- Interactive animations
+
+## Getting Started
+
+To get the landing page up and running on your local machine, follow these steps:
+
+   ```shell
+   git clone https://github.com/Pavlo000/landing-page.git
+   npm install
+   npm start
+   ```
