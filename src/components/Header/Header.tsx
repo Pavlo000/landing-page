@@ -23,7 +23,7 @@ export const Header: React.FC = () => {
 
       <div className="Header__block">
         <h1 className="Header__title">
-          Portfolio, and how to make exiting things
+          Portfolio, and little bit about my works
         </h1>
 
         <a href="#projects" className="Header__button button">
