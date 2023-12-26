@@ -1,4 +1,4 @@
-import cv from '../../assets/files/Pavlo-Moroz-CV.pdf';
+import cv from '../../assets/files/Full-stack-resume.pdf';
 import image from '../../assets/images/about-photo.jpg';
 import './About.scss';
 
